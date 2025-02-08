@@ -8,7 +8,7 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 const ENCRYPTION_PRIVATE_KEY = process.env.ENCRYPTION_PRIVATE_KEY ?? '';
-const ONDC_PUBLIC_KEY = process.env.ONONDC_PUBLIC_KEY ?? '';
+const ONDC_PUBLIC_KEY = process.env.ONDC_PUBLIC_KEY ?? '';
 
 // Pre-defined public and private keys
 const privateKey = crypto.createPrivateKey({
