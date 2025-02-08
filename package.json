@@ -9,7 +9,7 @@
     "start": "node dist/app.js",
     "serve": "npm run build && npm run start",
     "dev": "NODE_ENV=development npm run serve",
-    "prod": "NODE_ENV=production npm run serve"
+    "prod": "NODE_ENV=production npm run start"
   },
   "author": "",
   "license": "ISC",
